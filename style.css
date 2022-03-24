@@ -1,0 +1,133 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2rem;
+  background-color: black;
+  color: white;
+}
+
+h1{
+  font-family: verdana, arial, sans-serif;
+    background-color:#1091d6;
+    background-image: linear-gradient(to top, #1091d6 0%, rgb(255, 255, 255) 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+
+button{
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+  padding:10px;
+  font-size: 18px;
+  border:0;
+  outline: none;
+  cursor: pointer;
+  width: 80px;
+  margin: 10px;
+  border-radius: 20px;
+  background: #1091d6;
+  color: white;
+}
+
+.type{
+    font-family: verdana, arial, sans-serif;
+    background-color:#1091d6;
+    background-image: linear-gradient(to top, #1091d6 0%, rgb(255, 255, 255) 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+}
+
+#type-field{
+  font-family: verdana, arial, sans-serif;
+  background-color:#1091d6;
+  background-image: linear-gradient(to top, #1091d6 0%, rgb(255, 255, 255) 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+}
+
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:6px;
+}
+
+.hidden {
+  display: none;
+}
+
+#timer{
+  font-family: verdana, arial, sans-serif;
+}
+
+/* Color adding to buttons */
+
+#button1 {
+  background: #E2CFFF;
+}
+
+#button1:active, #button1.lit{
+  background: #9955BB;
+}
+
+#button2 {
+  background: #FFFFBD;
+}
+
+#button2:active, #button2.lit {
+  background: #FFE54C;
+}
+
+#button3 {
+  background: #CAF6CA;
+}
+
+#button3:active, #button3.lit {
+  background: #62D28F;
+}
+
+#button4 {
+  background: #FDD5E8;
+}
+
+#button4:active, #button4.lit {
+  background: #FFA0C5;
+}
+
+#button5 {
+  background: #95D3F5;
+}
+
+#button5:active, #button5.lit {
+  background: #3DB5FF;
+}
+
+
+
+
+
